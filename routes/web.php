@@ -11,4 +11,4 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ShopController;
 
 
-
+Route::get('shop', 'ShopController@index')->name('shop');
